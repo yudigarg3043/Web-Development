@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- there are more properties such as user-scalable=no(User cannot zoom in or out), maximum-scale or minimum-scale -->
+    <title>Basics on HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="data.js" async></script>
+    <!-- defer attribute will download the script but will delay the application of script until body executes comoletely. This is used if we do not want to delay the download process of script -->
+    <!-- <script src="script.js" async></script> -->
+    <!-- async is also non blocking i.e this also downloads the script but in this execution is done immediately after the download is complete unlike defer as it executes at the end. -->
+     <!-- we use defer or async because it increases the performance i.e it does not waste time of download, it parses the rest of file in the meantime -->
+</head>
+<body>
+    <head>Welcome to our Website</head>
+    <div id="tag1">Hello!!</div>
+    <div id="data"></div>
+</body>
+</html>
